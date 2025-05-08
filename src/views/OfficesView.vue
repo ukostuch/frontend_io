@@ -2,7 +2,6 @@
 import OfficeCards from "@/components/organisms/OfficeCards.vue";
 import { RouterLink } from "vue-router";
 import { useAuthStore } from "../stores/AuthStore";
-import OfficeMap from "@/components/organisms/OfficeMap.vue";
 
 const authStore = useAuthStore();
 </script>
@@ -33,9 +32,6 @@ const authStore = useAuthStore();
         Check our locations all around Krakow
       </div>
       <OfficeCards />
-      <div class="lg:px-72 sm:px-24 mt-10 w-full relative z-0">
-        <OfficeMap />
-      </div>
     </div>
   </div>
 </template>
