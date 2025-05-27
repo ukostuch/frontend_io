@@ -58,6 +58,21 @@ const routes = [
       ),
   },
   {
+    path: "/claim/:id",
+    name: "ClaimForm",
+    component: () => import("@/views/ClaimFormView.vue"),
+  },
+  {
+    path: "/my-claims",
+    name: "MyClaims",
+    component: () => import("@/views/MyClaimsView.vue"),
+  },
+  {
+    path: "/admin-view",
+    name: "AdminView",
+    component: () => import("@/views/AdminClaimsView.vue"),
+  },
+  {
     path: "/offices/:id",
     name: "office",
     component: import(/* webpackChunkName: "about" */ "@/views/OfficeView.vue"),

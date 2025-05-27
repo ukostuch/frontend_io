@@ -30,6 +30,14 @@
           >, you need to prove that it is your property. In this short guide, we
           will walk you through this process step by step.
         </p>
+        <div class="mt-6 text-center">
+          <router-link
+            to="/my-claims"
+            class="inline-block bg-my-green text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700"
+          >
+            See your claims
+          </router-link>
+        </div>
       </section>
 
       <StatusList />

@@ -145,6 +145,21 @@ const isActiveLink = (routePath) => {
           ]"
           >Manage FAQs</RouterLink
         >
+        <RouterLink
+          v-if="isAdminUser"
+          to="/admin-view"
+          :class="[
+            isActiveLink('/admin-view')
+              ? ''
+              : 'hover:bg-gray-900 hover:text-white',
+            'text-white',
+            'text-sm',
+            'px-3',
+            'py-2',
+            'rounded-md',
+          ]"
+          >Manage Claims</RouterLink
+        >
       </div>
     </div>
   </div>
