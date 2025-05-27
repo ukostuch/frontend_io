@@ -89,9 +89,9 @@ const isActiveLink = (routePath) => {
           >Found items</RouterLink
         >
         <RouterLink
-          to="/claimProcess"
+          to="/claim-process"
           :class="[
-            isActiveLink('/claimProcess')
+            isActiveLink('/claim-process')
               ? ''
               : 'hover:bg-gray-900 hover:text-white',
             'text-white',

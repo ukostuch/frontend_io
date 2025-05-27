@@ -50,7 +50,7 @@ const routes = [
       import(/* webpackChunkName: "foundItems" */ "@/views/FoundItemsView.vue"),
   },
   {
-    path: "/claimProcess",
+    path: "/claim-process",
     name: "Claim process",
     component: () =>
       import(

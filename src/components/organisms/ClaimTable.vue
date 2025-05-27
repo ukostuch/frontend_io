@@ -50,8 +50,12 @@ const filteredClaims = computed(() =>
 </script>
 
 <template>
+  <div
+    class="login-caption font-bold text-my-green text-2xl text-center mb-4 mt-9"
+  >
+    Admin - All Claims
+  </div>
   <div class="max-w-7xl mx-auto p-6 bg-white rounded shadow mt-4">
-    <h2 class="text-2xl font-bold mb-4">Admin - All Claims</h2>
     <h5>Filter by Item ID:</h5>
     <input
       v-model="searchItemId"

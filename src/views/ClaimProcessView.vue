@@ -33,7 +33,7 @@
         <div class="mt-6 text-center">
           <router-link
             to="/my-claims"
-            class="inline-block bg-my-green text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700"
+            class="bg-my-green text-my-white font-bold text-sm px-3 py-2 rounded hover:bg-gray-900 hover:text-my-white transition duration-300"
           >
             See your claims
           </router-link>
